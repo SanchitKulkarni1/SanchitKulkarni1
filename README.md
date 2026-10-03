@@ -20,6 +20,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[Ask my career graph](https://github.com/SanchitKulkarni1/portfoliowebsite)** · [live](https://sanchitkulkarni.vercel.app/graph) | My portfolio, with a GraphRAG chatbot: questions become guarded, read-only Cypher over a Neo4j graph of my career (94 nodes, 233 relationships), answers stream back and the nodes used light up in an interactive d3 graph. | FastAPI · Neo4j · Gemini · React · d3 |
 | **[gitEQ](https://github.com/SanchitKulkarni1/gitEQ)** · [live](https://giteq.vercel.app/) | Paste a GitHub URL and get architecture analysis, generated docs and a chatbot for the codebase. Parses code with Tree-sitter; LangGraph agents do the analysis. | FastAPI · LangGraph · Gemini · Tree-sitter |
 | **[DodgeAI FDE](https://github.com/SanchitKulkarni1/DodgeAI-FDE)** · [live](https://dodgeai-o2c-eta.vercel.app/) | Natural-language → SQL over SAP Order-to-Cash data (19 tables, 50K+ records) with live graph visualisation. | LangGraph · Vector search · React |
 | **[Market Research Copilot](https://github.com/SanchitKulkarni1/Market-Research-Copilot)** · [live](https://market-research-copilot.streamlit.app/) | Planner → executor → summariser pipeline that turns a product query into a SWOT and competitive-positioning report. | LangGraph · Gemini · SerpAPI · Streamlit |
@@ -30,7 +31,7 @@
 <details>
 <summary><b>More projects</b></summary>
 
-- **[Recall](https://github.com/SanchitKulkarni1/reminder-app)**: capture a term or a reel now and get a researched digest emailed later. Built on LangGraph routing, Tavily, Jina and Supabase pgvector.
+- **[Recall](https://github.com/SanchitKulkarni1/reminder-app)** (`reminder-app`): capture a term or a reel now and get a researched digest emailed later. Built on LangGraph routing, Tavily, Jina and Supabase pgvector.
 - **[MediFlow](https://github.com/SanchitKulkarni1/mediflow)** + **[FlowCare Triage UI](https://github.com/SanchitKulkarni1/flowcare-triage)**: voice-to-triage agent for ERs (Gemini audio, Google ADK) with priority-aware lab booking.
 - **[Prompt Optimizer](https://github.com/SanchitKulkarni1/prompt-optimizer)**: KeyBERT-guided prompt compression that shows token and cost savings for each model.
 - **[AI Resume Analyzer](https://github.com/SanchitKulkarni1/AI-Resume-Analyzer.backend)** · [live](https://ai-resume-analyzer-frontend-wheat.vercel.app/): resume vs. job-description match score and roadmap.
@@ -43,7 +44,7 @@
 
 **AI / GenAI:** LangGraph · LangChain · RAG · Multi-agent systems · Gemini · PyTorch · TensorFlow · YOLOv8 · Transformers  
 **Backend & DevOps:** Python · FastAPI · Docker · AWS · Azure · GitHub Actions · Render · Vercel  
-**Data:** PostgreSQL · MongoDB · Supabase · ChromaDB · Pinecone · pgvector  
+**Data:** Neo4j · PostgreSQL · MongoDB · Supabase · ChromaDB · Pinecone · pgvector  
 **Frontend:** React · TypeScript · Tailwind CSS
 
 ---
